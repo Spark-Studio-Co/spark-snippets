@@ -1,65 +1,37 @@
-# spark-snippets README
+# Spark Snippets for Visual Studio Code
 
-This is the README for your extension "spark-snippets". After writing up a brief description, we recommend including the following sections.
+Welcome to **Spark Snippets for Visual Studio Code**, a high-efficiency toolkit designed to accelerate your React development. Spark Snippets provides you with a broad array of predefined code snippets that drastically reduce the time spent on boilerplate code, allowing you to focus on building innovative features and user experiences.
+
+Developed by Spark Studio.
+
+https://sparkstudio.kz
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Spark Snippets enhances your React development workflow by providing quick access to commonly used React component patterns, hooks, and other utilities. Here are some of the snippets included:
 
-For example if there is an image subfolder under your extension project workspace:
+- **Spark React Input (`rinput`)**: Generates a React input component with props for margin, placeholder, type, and text alignment, complete with SCSS module styling.
 
-\!\[feature X\]\(images/feature-x.png\)
+- **Spark React Button (`rbtn`)**: Creates a styled button component, supporting both 'filled' and 'outline' styles with customizable margins.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Spark Horizontal Rule (`rhr`)**: Inserts a styled `<hr>` component using SCSS, ideal for thematic breaks in your content.
+
+- **Spark React Link Button (`rlbtn`)**: Generates a React link button component using `react-scroll`, perfect for navigational purposes in single-page applications.
+
+- **Spark React Selector (`rselector`)**: A custom dropdown selector component, equipped with FontAwesome icons and fully customizable options.
+
+- **Network Interaction Snippets**:
+  - **Spark Post Request (`rapost`)**: Template for creating a POST request using Axios.
+  - **Spark Get Request (`raget`)**: Snippet for fetching data using Axios with hooks.
+  - **Spark Delete Request (`radelete`)**: Setup for making DELETE requests via Axios.
+  - **Spark Patch Request (`rapatch`)**: Simplifies sending PATCH requests to update resources.
+
+> Tip: Utilize these snippets to significantly cut down your coding time and reduce errors related to repetitive code entry. Enhance your productivity and maintainability of your React projects!
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+No specific prerequisites are required to use Spark Snippets other than having Visual Studio Code installed. However, ensuring your project environment includes React and an appropriate CSS processor (like SASS) will allow you to utilize these snippets fully.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension does not contribute
