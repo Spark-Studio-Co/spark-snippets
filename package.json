@@ -3,7 +3,7 @@
   "displayName": "Spark Snippets",
   "publisher": "SparkStudio",
   "icon": "images/sparkIcon.png",
-  "description": "Welcome to Spark Snippets for React—a meticulously crafted extension designed to enhance the productivity of React developers. Whether you're a beginner aiming to learn React faster or a seasoned developer looking to streamline your workflow, Spark Snippets offers a comprehensive collection of code snippets that make React development quick and effortless.",
+  "description": "Comprehensive collection of code snippets for React and TypeScript development.",
   "version": "0.0.3",
   "engines": {
     "vscode": "^1.88.0"
@@ -14,8 +14,12 @@
   "contributes": {
     "snippets": [
       {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      },
+      {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/typescriptreact.json"
       }
     ]
   }
