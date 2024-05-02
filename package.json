@@ -4,7 +4,7 @@
   "publisher": "SparkStudio",
   "icon": "images/sparkIcon.png",
   "description": "Comprehensive collection of code snippets for React and TypeScript development.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.88.0"
   },
