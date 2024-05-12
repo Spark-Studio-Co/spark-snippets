@@ -15,11 +15,11 @@
     "snippets": [
       {
         "language": "typescript",
-        "path": "./snippets/typescript.json"
+        "path": "./snippets/snippets.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/typescriptreact.json"
+        "path": "./snippets/snippets.code-snippets"
       }
     ]
   }
