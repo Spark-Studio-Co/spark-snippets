@@ -6,7 +6,7 @@
   "engines": {
     "vscode": "^1.88.0"
   },
-  "main": "./out/extension.js",
+  "main": "./out/index.js",
   "activationEvents": [
     "onCommand:extension.calculateVW"
   ],
