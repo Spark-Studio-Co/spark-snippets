@@ -4,12 +4,24 @@
   "publisher": "SparkStudio",
   "icon": "images/sparkIcon.png",
   "description": "Comprehensive collection of code snippets for React and TypeScript development.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.88.0"
   },
+  "scripts": {
+    "build": "tsc -p ."
+  },
   "categories": [
     "Snippets"
+  ],
+  "activationEvents": [
+    "onCommand:extension.calculateVW"
+  ],
+  "commands": [
+    {
+      "command": "extension.calculateVW",
+      "title": "Calculate VW"
+    }
   ],
   "contributes": {
     "snippets": [
@@ -18,9 +30,17 @@
         "path": "./snippets/snippets.code-snippets"
       },
       {
+        "language": "scss",
+        "path": "./snippets/scss.code-snippets"
+      },
+      {
         "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
+  },
+  "dependencies": {
+    "typescript": "^5.4.5",
+    "vscode": "^1.1.37"
   }
 }

@@ -2,52 +2,52 @@
   // Clamps For 360px:
 
   "Clamp 4px @ 360px": {
-    "prefix": "cl4-360",
+    "prefix": "cl4-xxs",
     "body": ["clamp(2px, ${1:4} / 360 * 100vw, 8px);"],
     "description": "Clamp for 4px at 360px resolution"
   },
   "Clamp 8px @ 360px": {
-    "prefix": "cl8-360",
+    "prefix": "cl8-xxs",
     "body": ["clamp(4px, ${1:8} / 360 * 100vw, 16px);"],
     "description": "Clamp for 8px at 360px resolution"
   },
   "Clamp 16px @ 360px": {
-    "prefix": "cl16-360",
+    "prefix": "cl16-xxs",
     "body": ["clamp(8px, ${1:16} / 360 * 100vw, 32px);"],
     "description": "Clamp for 16px at 360px resolution"
   },
   "Clamp 18px @ 360px": {
-    "prefix": "cl18-360",
+    "prefix": "cl18-xxs",
     "body": ["clamp(9px, ${1:18} / 360 * 100vw, 36px);"],
     "description": "Clamp for 18px at 360px resolution"
   },
   "Clamp 20px @ 360px": {
-    "prefix": "cl20-360",
+    "prefix": "cl20-xxs",
     "body": ["clamp(10px, ${1:20} / 360 * 100vw, 40px);"],
     "description": "Clamp for 20px at 360px resolution"
   },
   "Clamp 24px @ 360px": {
-    "prefix": "cl24-360",
+    "prefix": "cl24-xxs",
     "body": ["clamp(12px, ${1:24} / 360 * 100vw, 48px);"],
     "description": "Clamp for 20px at 360px resolution"
   },
   "Clamp 32px @ 360px": {
-    "prefix": "cl32-360",
+    "prefix": "cl32-xxs",
     "body": ["clamp(16px, ${1:32} / 360 * 100vw, 64px);"],
     "description": "Clamp for 32px at 360px resolution"
   },
   "Clamp 64px @ 360px": {
-    "prefix": "cl64-360",
+    "prefix": "cl64-xxs",
     "body": ["clamp(32px, ${1:64} / 360 * 100vw, 128px);"],
     "description": "Clamp for 64px at 360px resolution"
   },
   "Clamp 128px @ 360px": {
-    "prefix": "cl128-360",
+    "prefix": "cl128-xxs",
     "body": ["clamp(64px, ${1:128} / 360 * 100vw, 256px);"],
     "description": "Clamp for 128px at 360px resolution"
   },
   "Clamp 256px @ 360px": {
-    "prefix": "clamp256-360",
+    "prefix": "clamp256-xxs",
     "body": ["clamp(128px, ${1:256} / 360 * 100vw, 512px);"],
     "description": "Clamp for 256px at 360px resolution"
   },
@@ -55,52 +55,52 @@
   // Clamp for 480px:
 
   "Clamp 4px @ 480px": {
-    "prefix": "cl4-480",
+    "prefix": "cl4-xs",
     "body": ["clamp(2px, ${1:4} / 480 * 100vw, 8px);"],
     "description": "Clamp for 4px at 480px resolution"
   },
   "Clamp 8px @ 480px": {
-    "prefix": "cl8-480",
+    "prefix": "cl8-xs",
     "body": ["clamp(4px, ${1:8} / 480 * 100vw, 16px);"],
     "description": "Clamp for 8px at 360px resolution"
   },
   "Clamp 16px @ 480px": {
-    "prefix": "cl16-480",
+    "prefix": "cl16-xs",
     "body": ["clamp(8px, ${1:16} / 480 * 100vw, 32px);"],
     "description": "Clamp for 16px at 480px resolution"
   },
   "Clamp 18px @ 48-px": {
-    "prefix": "cl18-480",
+    "prefix": "cl18-xs",
     "body": ["clamp(9px, ${1:18} / 480 * 100vw, 36px);"],
     "description": "Clamp for 18px at 480px resolution"
   },
   "Clamp 20px @ 480px": {
-    "prefix": "cl20-480",
+    "prefix": "cl20-xs",
     "body": ["clamp(10px, ${1:20} / 480 * 100vw, 40px);"],
     "description": "Clamp for 20px at 480px resolution"
   },
   "Clamp 24px @ 480px": {
-    "prefix": "cl24-480",
+    "prefix": "cl24-xs",
     "body": ["clamp(12px, ${1:24} / 480 * 100vw, 48px);"],
     "description": "Clamp for 20px at 480px resolution"
   },
   "Clamp 32px @ 480px": {
-    "prefix": "cl32-480",
+    "prefix": "cl32-xs",
     "body": ["clamp(16px, ${1:32} / 480 * 100vw, 64px);"],
     "description": "Clamp for 32px at 480px resolution"
   },
   "Clamp 64px @ 480px": {
-    "prefix": "cl64-480",
+    "prefix": "cl64-xs",
     "body": ["clamp(32px, ${1:64} / 480 * 100vw, 128px);"],
     "description": "Clamp for 64px at 480px resolution"
   },
   "Clamp 128px @ 480px": {
-    "prefix": "cl128-480",
+    "prefix": "cl128-xs",
     "body": ["clamp(64px, ${1:128} / 480 * 100vw, 256px);"],
     "description": "Clamp for 128px at 480px resolution"
   },
   "Clamp 256px @ 480px": {
-    "prefix": "clamp256-480",
+    "prefix": "clamp256-xs",
     "body": ["clamp(128px, ${1:256} / 480 * 100vw, 512px);"],
     "description": "Clamp for 256px at 480px resolution"
   },
@@ -320,53 +320,53 @@
   // Clamp 1520px:
 
   "Clamp 4px @ 1520px": {
-    "prefix": "cl4-xl",
-    "body": ["clamp(2px, ${1:4} / 1360 * 100vw, 8px);"],
-    "description": "Clamp for 4px at extra-large device resolution (1360px)"
+    "prefix": "cl4-2xl",
+    "body": ["clamp(2px, ${1:4} / 1520 * 100vw, 8px);"],
+    "description": "Clamp for 4px at extra-large device resolution (1520px)"
   },
   "Clamp 8px @ 1520px": {
-    "prefix": "cl8-xl",
-    "body": ["clamp(4px, ${1:8} / 1360 * 100vw, 16px);"],
-    "description": "Clamp for 8px at extra-large device resolution (1360px)"
+    "prefix": "cl8-2xl",
+    "body": ["clamp(4px, ${1:8} / 1520 * 100vw, 16px);"],
+    "description": "Clamp for 8px at extra-large device resolution (1520px)"
   },
   "Clamp 16px @ 1520px": {
-    "prefix": "cl16-xl",
-    "body": ["clamp(8px, ${1:16} / 1360 * 100vw, 32px);"],
-    "description": "Clamp for 16px at extra-large device resolution (1360px)"
+    "prefix": "cl16-2xl",
+    "body": ["clamp(8px, ${1:16} / 1520 * 100vw, 32px);"],
+    "description": "Clamp for 16px at extra-large device resolution (1520px)"
   },
   "Clamp 18px @ 1520px": {
-    "prefix": "cl18-xl",
-    "body": ["clamp(9px, ${1:18} / 1360 * 100vw, 36px);"],
-    "description": "Clamp for 18px at extra-large device resolution (1360px)"
+    "prefix": "cl18-2xl",
+    "body": ["clamp(9px, ${1:18} / 1520 * 100vw, 36px);"],
+    "description": "Clamp for 18px at extra-large device resolution (1520px)"
   },
   "Clamp 20px @ 1520px": {
-    "prefix": "cl20-xl",
-    "body": ["clamp(10px, ${1:20} / 1360 * 100vw, 40px);"],
-    "description": "Clamp for 20px at extra-large device resolution (1360px)"
+    "prefix": "cl20-2xl",
+    "body": ["clamp(10px, ${1:20} / 1520 * 100vw, 40px);"],
+    "description": "Clamp for 20px at extra-large device resolution (1520px)"
   },
   "Clamp 24px @ 1520px": {
-    "prefix": "cl24-xl",
-    "body": ["clamp(12px, ${1:24} / 1360 * 100vw, 48px);"],
-    "description": "Clamp for 24px at extra-large device resolution (1360px)"
+    "prefix": "cl24-2xl",
+    "body": ["clamp(12px, ${1:24} / 1520 * 100vw, 48px);"],
+    "description": "Clamp for 24px at extra-large device resolution (1520px)"
   },
   "Clamp 32px @ 1520px": {
-    "prefix": "cl32-xl",
-    "body": ["clamp(16px, ${1:32} / 1360 * 100vw, 64px);"],
-    "description": "Clamp for 32px at extra-large device resolution (1360px)"
+    "prefix": "cl32-2xl",
+    "body": ["clamp(16px, ${1:32} / 1520 * 100vw, 64px);"],
+    "description": "Clamp for 32px at extra-large device resolution (1520px)"
   },
   "Clamp 64px @ 1520px": {
-    "prefix": "cl64-xl",
-    "body": ["clamp(32px, ${1:64} / 1360 * 100vw, 128px);"],
-    "description": "Clamp for 64px at extra-large device resolution (1360px)"
+    "prefix": "cl64-2xl",
+    "body": ["clamp(32px, ${1:64} / 1520 * 100vw, 128px);"],
+    "description": "Clamp for 64px at extra-large device resolution (1520px)"
   },
   "Clamp 128px @ 1520px": {
-    "prefix": "cl128-xl",
-    "body": ["clamp(64px, ${1:128} / 1360 * 100vw, 256px);"],
-    "description": "Clamp for 128px at extra-large device resolution (1360px)"
+    "prefix": "cl128-2xl",
+    "body": ["clamp(64px, ${1:128} / 1520 * 100vw, 256px);"],
+    "description": "Clamp for 128px at extra-large device resolution (1520px)"
   },
   "Clamp 256px @ 1520px": {
-    "prefix": "cl256-xl",
-    "body": ["clamp(128px, ${1:256} / 1360 * 100vw, 512px);"],
-    "description": "Clamp for 256px at extra-large device resolution (1360px)"
+    "prefix": "cl256-2xl",
+    "body": ["clamp(128px, ${1:256} / 1520 * 100vw, 512px);"],
+    "description": "Clamp for 256px at extra-large device resolution (1520px)"
   }
 }
