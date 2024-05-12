@@ -2,6 +2,7 @@
   "name": "spark-snippets",
   "displayName": "Spark Snippets",
   "publisher": "SparkStudio",
+  "icon": "./images/sparkIcon.png",
   "version": "0.0.5",
   "engines": {
     "vscode": "^1.88.0"
