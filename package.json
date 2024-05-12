@@ -2,8 +2,8 @@
   "name": "spark-snippets",
   "displayName": "Spark Snippets",
   "publisher": "SparkStudio",
-  "icon": "./images/sparkIcon.png",
-  "version": "0.0.5",
+  "icon": "images/sparkIcon.png",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -20,6 +20,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/scss.code-snippets"
       }
     ]
   },
